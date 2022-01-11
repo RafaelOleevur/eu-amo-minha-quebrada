@@ -1,6 +1,9 @@
+/* configurações gerais */
+
 *{
     font-family: Helvetica;
     color: black;
+    font-family: 'Gill Sans', 'Arial Narrow', Arial, sans-serif;
 }
 
 html, body, section{
@@ -16,6 +19,7 @@ body{
 .bg-white{
     background: #fff;
 }
+
 
 /* CABEÇALHO */
 
@@ -36,15 +40,32 @@ body{
     color:black;
 }
 
+
+
+/* HOME - citação inicio da page */
+p.citacao-paragrafo, p.citacao-paragrafo em{
+    color: white;
+    font-size: 1.5em;
+    text-shadow: 3px 3px rgba(0,0,0,0.4);
+}
+
+#borda{
+    border-top:3px white solid; 
+    border-bottom: 3px white solid;  
+    background:rgba(0, 0, 0, 0.2);
+}
+
+
+
 /* RODAPÉ */
 footer{
-    background: #000;
+    background: rgb(0,0,0);
+    height: 80px !important;
     
 }
 
-#icone-rodape{
-    width:60px;
-    margin: 10px;
+.icone-rodape{
+    color: white !important;
 }
 
 footer ul#redes-sociais li{
@@ -53,17 +74,13 @@ footer ul#redes-sociais li{
 
 }
 
-footer ul#redes-sociais a{
-    color: #fff;
-    text-decoration: none;
-    font-size: 0.6em;
+.logo-rodape{
+    width: 60px;
+    height: 60px;
 }
 
-footer i{
-    color: white;
-    font-size: 25px;
-}
-footer ul#redes-sociais{
-    
+.reduzir{
+    margin-left: 0px !important; 
+    margin-right: 0px !important; 
 }
 
